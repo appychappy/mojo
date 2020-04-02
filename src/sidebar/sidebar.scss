@@ -1,0 +1,72 @@
+@import "../style/variables.scss";
+
+.sidebar {
+  width: 100%;
+  max-width: 270px;
+  background: $sidebar;
+  height: 100vh;
+  color: $lighttext;
+  padding: 0 14px;
+  font-size: 14px;
+
+  &__header {
+    padding: 25px 16px;
+  }
+
+  &__heading-icon {
+    height: 20px;
+    width: 20px;
+    margin-right: 12px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  &__heading {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    vertical-align: middle;
+    display: inline-block;
+  }
+
+  &__nav-item {
+    font-size: 14px;
+    font-weight: 400;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 16px;
+
+    a {
+      text-decoration: none;
+      color: $lighttext;
+    }
+
+    &--headline {
+      font-size: 12px;
+      color: $headline;
+      text-transform: uppercase;
+      margin-top: $vertical-rhythm * 2;
+    }
+
+    &--active {
+      background: $sidebar-highlight;
+      border-radius: $br;
+    }
+  }
+
+  &__notification {
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: $sidebar;
+    float: right;
+    margin-top: 10px;
+  }
+}
