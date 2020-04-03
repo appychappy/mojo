@@ -53,7 +53,7 @@ exports.handler = function(event, context, callback) {
         addressTwo: "Manchester",
         users: 123,
         offices: 432,
-        rent: 125
+        rent: 199
       }
     ]
   };

@@ -11,6 +11,8 @@
     width: 100%;
     border-radius: $br;
     margin-bottom: $vertical-rhythm;
+    height: 300px;
+    object-fit: cover;
   }
 
   &__name {
@@ -63,6 +65,7 @@
     width: 50%;
     vertical-align: middle;
     display: inline-block;
+    cursor: pointer;
   }
 
   &__price {
