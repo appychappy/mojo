@@ -3,7 +3,7 @@ exports.handler = function(event, context, callback) {
     data: [
       {
         name: "Bauhaus Archive",
-        img: "bauhaus.png",
+        img: "bauhaus.jpg",
         addressOne: "7246 Woodland Rd.",
         addressTwo: "Waukesha, WI 53186",
         users: 906,
@@ -12,7 +12,7 @@ exports.handler = function(event, context, callback) {
       },
       {
         name: "Lotus Temple",
-        img: "lotus.png",
+        img: "lotus.jpg",
         addressOne: "164 S. Carson Court",
         addressTwo: "Newport News, VA 23601",
         users: 876,
@@ -21,7 +21,7 @@ exports.handler = function(event, context, callback) {
       },
       {
         name: "Dome of the Rock",
-        img: "dome.png",
+        img: "dome.jpg",
         addressOne: "123 Johnson Court",
         addressTwo: "Roy, UT 84067",
         users: 564,
@@ -30,7 +30,7 @@ exports.handler = function(event, context, callback) {
       },
       {
         name: "Lloyd's Building",
-        img: "lloyds.png",
+        img: "lloyds.jpg",
         addressOne: "36 Squawq Creek Dr.",
         addressTwo: "Harleysville, PA 19438",
         users: 466,
@@ -39,7 +39,7 @@ exports.handler = function(event, context, callback) {
       },
       {
         name: "Beetham Tower",
-        img: "beetham.png",
+        img: "beetham.jpg",
         addressOne: "1 Deansgate",
         addressTwo: "Manchester",
         users: 333,
@@ -48,7 +48,7 @@ exports.handler = function(event, context, callback) {
       },
       {
         name: "Manchester Town Hall",
-        img: "townhall.png",
+        img: "townhall.jpg",
         addressOne: "1 Albert Square",
         addressTwo: "Manchester",
         users: 123,
