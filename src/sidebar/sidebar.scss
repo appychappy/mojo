@@ -4,7 +4,7 @@
   width: 100%;
   max-width: 270px;
   background: $sidebar;
-  height: 100vh;
+  min-height: 100vh;
   color: $lighttext;
   padding: 0 14px;
   font-size: 14px;
@@ -52,7 +52,7 @@
     }
 
     &--active {
-      background: $sidebar-highlight;
+      background: $highlight;
       border-radius: $br;
     }
   }

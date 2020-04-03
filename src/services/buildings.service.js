@@ -1,4 +1,5 @@
-const url = "/.netlify/functions/buildings";
+const url =
+  "https://lucid-lovelace-c56068.netlify.com/.netlify/functions/buildings";
 
 export class JokesService {
   async getBuildings() {

@@ -1,0 +1,75 @@
+@import "../style/variables.scss";
+
+.building {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 50%;
+  box-sizing: border-box;
+  padding: 15px;
+
+  &__image {
+    width: 100%;
+    border-radius: $br;
+    margin-bottom: $vertical-rhythm;
+  }
+
+  &__name {
+    font-size: 16px;
+    margin-bottom: $vertical-rhythm / 2;
+  }
+
+  &__address {
+    color: $headline;
+    font-size: 14px;
+    height: 22px;
+    line-height: 22px;
+  }
+
+  &__statsline {
+    width: 100%;
+    padding: 18px 0;
+    border-bottom: 1px solid $border;
+  }
+
+  &__stats {
+    width: 50%;
+    display: inline-block;
+    color: $headline;
+  }
+
+  &__icon {
+    opacity: 0.5;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+  }
+
+  &__stat {
+    display: inline;
+    vertical-align: middle;
+    font-size: 14px;
+  }
+
+  &__priceline {
+    padding: 18px 0;
+    font-size: 0;
+  }
+
+  &__rent {
+    font-size: 14px;
+    color: $highlight;
+    width: 50%;
+    vertical-align: middle;
+    display: inline-block;
+  }
+
+  &__price {
+    font-size: 18px;
+    width: 50%;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: right;
+  }
+}
