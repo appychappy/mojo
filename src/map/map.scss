@@ -1,6 +1,14 @@
+@import "../style/variables.scss";
+
 .map {
   width: 50%;
   min-height: 100vh;
   position: relative;
   z-index: 1;
+}
+
+@media (max-width: $tablet) {
+  .map {
+    display: none;
+  }
 }

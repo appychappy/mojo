@@ -70,3 +70,9 @@
     margin-top: 10px;
   }
 }
+
+@media (max-width: $mobile) {
+  .sidebar {
+    max-width: 100%;
+  }
+}

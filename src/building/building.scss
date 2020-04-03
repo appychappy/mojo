@@ -76,3 +76,9 @@
     text-align: right;
   }
 }
+
+@media (max-width: $tablet) {
+  .building {
+    flex-basis: 100%;
+  }
+}
