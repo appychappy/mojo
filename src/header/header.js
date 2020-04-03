@@ -5,7 +5,10 @@ import "./header.scss";
 export default () => {
   return (
     <div className="header">
-      <h2>This is a header</h2>
+      <div className="header__buildings">
+        <p>All Buildings</p>
+      </div>
+      <div className="header__search">Search</div>
     </div>
   );
 };
